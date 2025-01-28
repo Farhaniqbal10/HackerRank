@@ -6,5 +6,6 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     const orangeRes = oranges.map(num => num + b).filter(num => num >= s && num <= t).length;
     //panggil fungsi appleres
     console.log(appleRes);
+    //panggil fungsi orangeres
     console.log(orangeRes);
 }
