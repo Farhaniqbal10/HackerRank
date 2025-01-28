@@ -4,6 +4,7 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
 
     //deskripsi jeruk sebagai array mapping
     const orangeRes = oranges.map(num => num + b).filter(num => num >= s && num <= t).length;
+    //panggil fungsi appleres
     console.log(appleRes);
     console.log(orangeRes);
 }
